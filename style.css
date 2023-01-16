@@ -1,0 +1,161 @@
+*{
+    text-decoration:none;
+  }
+  .wrap{
+    margin:auto;
+    width:1000px;
+  }
+  .top{
+    display:flex;
+    justify-content:flex-end;
+    width:1000px;
+  
+  }
+  .header{
+    display:flex;
+    justify-content:space-between;
+    width:1000px;
+    
+  }
+  
+  .mainicon{
+   display:flex;
+  }
+  
+  .icon{
+    padding:20px;
+  }
+  .icon a{
+    padding:20px;
+  }
+  
+  .icon a:hover{
+    background:grey;
+    color:red;
+    font-weight:bold;
+  
+  }
+  
+  .container{
+    display:flex;
+    justify-content:space-between;
+     width:1000px;
+  }
+  .item h2{
+    text-align:center;
+    font-weight:bold;
+    
+  }
+  .item{
+    width:300px;
+    border:1px solid black;
+  }
+  
+  
+  .container :hover{
+      box-shadow:5px 5px 5px  grey;
+  }
+  
+  .content th,.content td:hover{
+    background:pink;
+    font-weight:bold;
+    box-shadow:2px 2px 2px grey;
+  }
+  .item p{
+    
+    padding:20px;
+  }
+  
+  .footer {
+    font-weight:bold;
+    background:green;
+    height:400px;
+    color:white;
+    padding-top:30px;
+    width:1002px;
+    
+  }
+  
+  .footer-header{
+    text-align:center;
+    font-size:30px;
+  }
+  
+  .footer-container{
+    display:flex;
+    padding: 20px;
+    font-size:30px;
+  
+  }
+  
+  .footer-container-nav{
+    padding-left :150px;
+    padding-top: 50px;
+    box-radius:50%;
+  }
+  
+  .wordcolor{
+    color:green;
+  }
+  .nav th,.nav td{
+    border-top:1px solid black;
+     border-bottom:1px solid black;
+    padding:10px;
+    text-align:center;
+  }
+  
+  .nav th{
+    background:grey;
+  }
+  
+  .content{
+  padding-left:300px;
+    padding-bottom:30px;
+    
+  }
+  .content h4{
+    padding-left:150px;
+    padding-top:50px;
+    padding-bottom:20px;
+    font-weight:bold;
+    font-size:20px;
+  }
+  
+  .info{
+    diplay:flex;
+    flex-direction:row;
+  }
+  
+  .info-right{
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .hex{
+    position:relative;
+    z-index:5;
+    bottom:200px;
+    left:0;
+    color:white;
+    font-weight:bold;
+    font-size:25px;
+    padding-left:25px;
+    text-shadow:5px 5px 5px  grey;
+    width:650px;
+  }
+  .pic img{
+    position:relative;
+    z-index:3;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+  }
+  
+  .bottom{
+    height:100px;
+    color:black;
+    display:flex;
+    justify-content:space-between;
+  }
+  
